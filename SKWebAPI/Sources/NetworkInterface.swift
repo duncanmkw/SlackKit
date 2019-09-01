@@ -25,6 +25,7 @@
     import Dispatch
 #endif
 import Foundation
+import FoundationNetworking
 #if !COCOAPODS
 import SKCore
 #endif
