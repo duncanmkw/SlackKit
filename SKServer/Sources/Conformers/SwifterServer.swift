@@ -29,7 +29,7 @@ class SwifterServer: SlackKitServer {
     let port: in_port_t
     let forceIPV4: Bool
 
-    init(port: in_port_t = 8080, forceIPV4: Bool = false, responder: SlackKitResponder) {
+    init(port: in_port_t = 8082, forceIPV4: Bool = false, responder: SlackKitResponder) {
         self.port = port
         self.forceIPV4 = forceIPV4
 
